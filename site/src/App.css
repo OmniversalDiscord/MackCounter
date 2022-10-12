@@ -17,16 +17,22 @@ body {
     align-items: center;
 }
 
-.count {
+p, h1, span {
     font-family: 'Manrope', sans-serif;
+}
+
+h1, span {
     color: rgba(255, 255, 255, 1);
-    font-size: 6rem;
     font-weight: 800;
     margin: 0;
 }
 
-p {
-    font-family: 'Manrope', sans-serif;
+.count {
+    font-size: 6rem;
+}
+
+.loading {
+    font-size: 3rem;
 }
 
 .subtitle {
